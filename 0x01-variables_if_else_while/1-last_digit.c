@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - shows the last number stored in the variable
-*return: goes back to zero
+* main - shows the last number stored in the variable
+*Return: goes back to zero
 */
 
 int main(void)
