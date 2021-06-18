@@ -1,0 +1,1 @@
+We will learn how to use variables in this directory.
