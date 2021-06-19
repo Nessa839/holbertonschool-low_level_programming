@@ -21,5 +21,6 @@ putchar(space);
 }
 number++;
 }
+putchar(10);
 return (0);
 }
