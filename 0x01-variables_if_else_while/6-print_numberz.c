@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * Main - prints a number of base 10
+ * main - prints a number of base 10
  * Return: Goes back to zero
  */
-
 int main(void)
 {
 int number;
