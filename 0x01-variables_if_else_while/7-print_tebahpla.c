@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- main - shows the alphabet in reverse. 
- * Return: goes back to zero.
+* main - shows the alphabet in reverse.
+* Return: goes back to zero.
 */
 int main(void)
 {
@@ -13,5 +13,5 @@ putchar(alphabet);
 alphabet--;
 }
 putchar(10);
-return(0);
+return (0);
 }
