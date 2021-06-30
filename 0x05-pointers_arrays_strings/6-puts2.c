@@ -11,14 +11,14 @@
 
 void puts2(char *str)
 
-
 {
-	int fc = 0;
+	int C = 0, last = 0;
 
-	while (*(str + fc))
-	{
-		_putchar(*(str + fc));
-		fc += 2;
-	}
+	while (str[C++])
+		last++;
+
+	for (C = 0; C < last; C += 2)
+		_putchar(str[C]);
+
 	_putchar('\n');
 }
