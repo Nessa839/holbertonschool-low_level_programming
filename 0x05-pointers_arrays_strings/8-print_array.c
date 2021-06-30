@@ -11,20 +11,17 @@
 
 void print_array(int *a, int n)
 {
-	int elem = 0;
+	int elem;
 
-	while (elem <= n)
+	for (elem = 0; elem < n; elem++)
 	{
 		printf("%d", a[elem]);
 
-		if (elem <= (n - 1))
+		if (elem == n - 1)
+			continue;
 
-			printf(", ");
-
-		elem++;
-
+		printf(", ");
 	}
 
 	printf("\n");
 }
-
