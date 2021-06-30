@@ -18,7 +18,7 @@ void puts2(char *str)
 	while (*(str + fc))
 	{
 		_putchar(*(str + fc));
-		fc = fc + 2;
+		fc += 2;
 	}
 	_putchar('\n');
 }
