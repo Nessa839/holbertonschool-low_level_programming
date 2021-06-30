@@ -12,13 +12,13 @@
 void puts2(char *str)
 
 {
-	int C = 0, last = 0;
+	int fc = 0, lc = 0;
 
-	while (str[C++])
-		last++;
+	while (str[fc++])
+		lc++;
 
-	for (C = 0; C < last; C += 2)
-		_putchar(str[C]);
+	for (fc = 0; fc < lc; fc += 2)
+		_putchar(str[fc]);
 
 	_putchar('\n');
 }
