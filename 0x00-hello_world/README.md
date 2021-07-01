@@ -1,0 +1,1 @@
+We're learning the basics of scripts 
